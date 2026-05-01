@@ -1,20 +1,17 @@
 #include <iostream>
-#include <bits/stdc++.h>
-#include <vector>
 
-std::vector<int> twoSum(std::vector<int>& nums, int target) {
+#include "library.hpp"
 
-
-    return {};
-}
+using namespace library;
 
 int main()
 {
+    std::vector nums = {0,2,0};
+    int target = 0;
+    std::vector<int> result = twoSum(nums, target);
 
-    std::vector<int> list = {1,2,3,4,5,6,7,8};
-    int target = 6;
-
-    //int c = std::count(list.begin(), list.end(), target); return how many target there is in the array
+    for (size_t i = 0; i < result.size(); i++)
+        std::cout << result[i] << std::endl;
 
     return 0;
 }
