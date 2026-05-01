@@ -1,0 +1,72 @@
+# =============================================================================
+# CLion
+# =============================================================================
+.idea/
+cmake-build-*/
+*.iws
+*.iml
+*.ipr
+
+# =============================================================================
+# Qt Creator
+# =============================================================================
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.creator.user
+*.creator.user.*
+CMakeLists.txt.user
+CMakeLists.txt.user.*
+
+# Qt shadow build directories (pattern: <project>-<kit>-<buildtype>)
+build-*/
+
+# Qt Creator CMake / Qbs caches
+.qtc_clangd/
+.qtc/
+
+# =============================================================================
+# CMake (shared by both IDEs)
+# =============================================================================
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Testing/
+
+# =============================================================================
+# Build artifacts
+# =============================================================================
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+*.pdb
+*.ilk
+*.exp
+*.map
+
+# =============================================================================
+# Generated / misc
+# =============================================================================
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.qm
+.DS_Store
+Thumbs.db
+/build
