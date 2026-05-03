@@ -36,3 +36,9 @@ std::vector<int> library::twoSum(std::vector<int>& nums, int target) {
 
     return {x, y};
 }
+
+// very simple when you learn about string.find()
+bool library::rotateString(std::string s, std::string goal) {
+    if (s.size() != goal.size()) return false;
+    return (s + s).find(goal) != std::string::npos;
+}
