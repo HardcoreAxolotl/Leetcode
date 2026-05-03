@@ -42,3 +42,17 @@ bool library::rotateString(std::string s, std::string goal) {
     if (s.size() != goal.size()) return false;
     return (s + s).find(goal) != std::string::npos;
 }
+
+// I have nothing to say about this solution
+bool library::isPalindrome(int x) {
+    if (x<0) return false;
+    std::string s = std::to_string(x);
+    for (int i = (s.length() - 1)/2; i >= 0; i--)
+    {
+        if (s[i] != s[s.length() - 1 - i])
+        {
+            return false;
+        }
+    }
+    return true;
+}

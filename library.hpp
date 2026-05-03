@@ -9,6 +9,7 @@
 namespace library {
 std::vector<int> twoSum(std::vector<int>& nums, int target);
 bool rotateString(std::string s, std::string goal);
+bool isPalindrome(int x);
 }
 
 #endif // LIBRARY_HPP
