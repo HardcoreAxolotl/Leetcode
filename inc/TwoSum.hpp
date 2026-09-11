@@ -1,7 +1,3 @@
-//
-// Created by HardcoreAxolotl on 11/09/2026.
-//
-
 #ifndef LEETCODE_TWOSUM_HPP
 #define LEETCODE_TWOSUM_HPP
 #include <algorithm>

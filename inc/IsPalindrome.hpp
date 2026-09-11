@@ -1,7 +1,3 @@
-//
-// Created by HardcoreAxolotl on 11/09/2026.
-//
-
 #ifndef LEETCODE_ISPALINDROME_HPP
 #define LEETCODE_ISPALINDROME_HPP
 #include <string>
